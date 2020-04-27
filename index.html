@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switzerland</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--can chinh kich thuoc web-->
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <script type="text/javascript"> /*khai bao kieu du lieu dung Javascript*/
+        var imgcheck = 'n';
+        function Change1(){ /*thay doi hinh anh*/
+            var image = document.getElementById('h1');
+            if(imgcheck == 'n'){
+                image.src = 'images/1280px-Matterhorn_from_Domhütte_-_2.jpg';/*hinh duoc doi thanh*/
+                imgcheck = 'p';
+            }
+            else{
+                image.src = 'images/cantons.gif';
+                imgcheck = 'n';
+            }
+        }
+
+        function Change2(){ /*thay doi hinh anh*/
+            var image = document.getElementById('h2');
+            if(imgcheck == 'n'){
+                image.src = 'images/Jungfraujoch-Switzerland_thumb.jpg'; 
+                imgcheck = 'p';
+            }
+            else{
+                image.src = 'images/Switzerland-village_1369729.jpg';
+                imgcheck = 'n';
+            }
+        }
+
+        function Change3(){ /*thay doi hinh anh*/
+            var image = document.getElementById('h3');
+            if(imgcheck == 'n'){
+                image.src = 'images/93476729_278316443159713_4730855645606051840_n.jpg';
+                imgcheck = 'p';
+            }
+            else{
+                image.src = 'images/happy-friends-switzerland-768x512.jpg';
+                imgcheck = 'n';
+            }
+        }
+        
+        $(document).ready(function(){
+            $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1><a href="index.html" target="_blank">SWITZERLAND</a></h1> 
+
+    <h3>(Confoederatio Helvetica)</h3>
+
+    <div><img src="images/photo-1-15755291107241326704898.jpg" width="400" heigth="200"></div>
+
+    <div id="flip"><h2>General Introduce</h2></div>
+    <div id="panel">Switzerland, which is a small mountainous country located in central Europe. 
+        Switzerland is a neutral, peaceful country, chosen to be the headquarters of 
+        the International Committee of the Red Cross, World Trade Organization, etc. 
+        The largest city in Switzerland is Zurich and the capital is Bern.</div>
+
+    <div><h4>----------------------------------------------------------------</h4></div>
+
+    <section>
+        <article>
+            <img src="images/cantons.gif" width="400" height="300"  alt="Geography" id="h1" onclick="Change1();">
+            <!--<a href="""> </a>-->
+            <a href="Geography.html">Geography</a>
+        </article>
+
+        <article>
+            <img src="images/Switzerland-village_1369729.jpg"  width="400" height="300" alt="Scenery" id="h2" onclick="Change2();">
+            <!--<a href="Scenery.html"> </a>-->
+            <a href="Scenery.html">Scenery</a>
+        </article>
+
+        <article>
+            <img src="images/happy-friends-switzerland-768x512.jpg" width="400" height="300" alt="Culture" id="h3" onclick="Change3();">
+            <!--<a href="Swiss.html"> </a>-->
+            <a href="Swiss.html">Culture</a>
+        </article>
+    </section>
+    
+    <div><p>Copyright &#169; 2020</p></div>
+    <p>
+        <blockquote> Discovering with me!!!
+                <cite>&mdash; C.T.N</cite>
+        </blockquote>
+    </p>
+
+</body>
+</html>

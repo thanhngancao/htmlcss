@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/Geography.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+            $("#flip1").click(function(){
+            $("#panel1").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function(){
+            $("#flip2").click(function(){
+            $("#panel2").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function(){
+            $("#flip3").click(function(){
+            $("#panel3").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function(){
+            $("#flip4").click(function(){
+            $("#panel4").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function(){
+            $("#flip5").click(function(){
+            $("#panel5").slideToggle("slow");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1><a href="index.html" target="_blank">SWITZERLAND</a></h1>
+
+    <h2>The Geography Of Switzerland</h2>   
+
+    <div id="flip1"><h3>Dimensions</h3></div>
+    <div id="panel1">
+        Area: 41285 km² (approx. 10'201'746 acres or 15'940 square miles).
+        Boundary: 1858 km (1150 miles).
+        <ul>
+            <li>Germany: 346 km (215 miles)</li>
+            <li>France: 572 km (355 miles)</li>
+            <li>Italy: 734 km (456 miles)</li>
+            <li>Austria: 165 km (103 miles)</li>
+            <li>Liechtenstein: 41 km (25 miles)</li>
+        </ul>
+        Highest elevation: Mount Monte Rosa ("Dufourspitze"), 4634 m.a.s (15200 feet).
+        Lowest elevation: Lake Maggiore ("Lago Maggiore"), 193 m.a.s (633 feet).
+        Time Zone: Central Europe (GMT +1 hour)
+        Switzerland is divided in three major geographical areas:
+        <ul>
+            <p><li type="circle">Alps ("Alpen"): 60%.</li></p>
+            <p><li type="circle">Middle land ("Mittelland"): 30%.</li></p>
+            <p><li type="circle">Jura: 10%.</li></p>
+        </ul>
+    </div>
+    
+    <div id="flip2"><h3>Mountains</h3></div>
+    <div id="panel2">
+        Switzerland hosts about 20% of the Alps. Approximately 100 peaks are close to or higher than 4000 meters (13125 feet) above sea level. 
+        Many mountain areas are developed, there are trains, cog railways, aerial cable cars and other means of transportation. 
+        Swiss mountains are famous for climbing, skiing, snowboarding, biking, hiking and other recreational activities.
+        <div><img src="images/1280px-Matterhorn_from_Domhütte_-_2.jpg" width="600" height="300"></div>
+        <div><p>Matterhorn- One of the highest peaks in the Alps</p></div>
+    </div>
+
+    <div id="flip3"><h3>Lakes</h3></div>
+    <div id="panel3">
+        Switzerland hosts many lakes, from the large Lake Geneva to hundreds of tiny little lakes in the mountains. 
+        There are also many dammed-up lakes, mainly to drive water turbines of power plants.
+        <div><img src="images/shutterstock-377524567.jpg" width="600" height="300"></div>
+    <div><p>Geneva- The biggest lake in Switzerland</p></div>
+    </div>
+
+    <div id="flip4"><h3>Rivers</h3></div>
+    <div id="panel4">
+        The rivers of Switzerland lead to three different seas: The Rhein with its tributaries Aare and Thur drains 67.7% of the water into the North Sea. 
+        The Rhone and the Ticino (a tributary to the river Po in Italy) drain 18% into the Mediterranean Sea. 
+        The Inn (a tributary to the river Donau in Germany/Austria) drains 4.4% into the Black Sea.
+        <div><img src="images/Rhine-River-Germany.jpg" width="600" height="300"></div>
+    <div><p>The Rhine river</p></div>
+    </div>
+
+    <div id="flip5"><h3>Climate</h3></div>
+    <div id="panel5">
+        Switzerland is located in a transition zone. In the west, there is a strong influence of the Atlantic ocean.
+        Winds bring a lot of moisture into Switzerland and cause rainfall. 
+        In the east, there is an almost continental climate, with lower temperatures and less precipitation.
+        On the other hand, the alps - which run from east to west - act as a climatic divide.
+        South of the alps, there is an almost Mediterranean climate, with significantly higher temperatures but also a lot of precipitation.
+        <br>
+        Spring is wet and cool, April is well known for fast and often changing weather conditions.
+        Summer is supposed to be warm and dry with maximum temperature up to 35°C (95°F).
+        The temperature depends primarily on the elevation, the zero line (0°C or 32°F) may raise as high as 4000 meters above sea level (13125 feet).
+        Fall is usually dry, but cool. The temperature will drop significantly in September or October, with the zero line around 2000 meter above sea level (6560 feet).
+        Winter is supposed to be cold and dry. The temperature may drop below 0°C everywhere in Switzerland, especially at night.
+        <div><img src="images/2111723.jpg" width="600" height="300"></div>
+        <div><p>Spring in Switzerland</p></div>
+        <div><img src="images/Do-a-boat-tour.jpg" width="600" height="300"></div>
+        <div><p>Summer in Switzerland</p></div>
+        <div><img src="images/Swiss-TOurism-5.jpg" width="600" height="300"></div>
+        <div><p>Autumn in Switzerland</p></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <label for="email">Your Email:</label>
+        <input type="text" name="mail" value="" placeholder="Your email">
+        <br>
+        <br>
+        <label for="comment">Your Comment:</label>
+        <textarea type="text" name="comment" id="" cols="30" row="10" placeholder="Your comment"></textarea>
+        <br>
+        <br>
+        <button onclick="createcommentOH()" id="lol">Send your comment!</button>
+    </div>
+
+    <div><h4>----------------------------------------------------------------</h4></div>
+
+    <section>
+        <article>
+            <a href="Scenery.html"><img src="images/Switzerland-village_1369729.jpg"  width="400" height="300" alt="Scenery"> </a>
+            <a href="Scenery.html">Scenery</a>
+        </article>
+
+        <article>
+            <a href="Swiss.html"><img src="images/happy-friends-switzerland-768x512.jpg" width="400" height="300" alt="Culture"> </a>
+            <a href="Swiss.html">Culture</a>
+        </article>
+    </section>
+
+    <p>Copyright &#169; 2020</p>
+    <p>
+        <blockquote> Discovering with me!!!
+                <cite>&mdash; C.T.N</cite>
+        </blockquote>
+    </p>
+
+    <!--<script src="./js/main.js"></script>-->
+</body>
+</html>

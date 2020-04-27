@@ -1,0 +1,175 @@
+body{
+    font-family: Time new roman ;
+    font-size: 15px;
+    width: 1300px;
+    margin: 0px auto;
+    background-color: LightCyan;
+}
+
+h1 a{
+    text-align: center;
+    font-family: Time new roman;
+    font-size: 50px;
+    text-shadow: 3px 3px 10px black;
+    line-height: 0.5;
+}
+
+h2 {
+    text-shadow: 1px 1px 3px navy;
+    text-align: center;
+    font-size: 30px;
+}
+
+#flip1, h3 {
+    font-size: 22px;
+    color: Firebrick;
+}
+
+#panel1 {
+    padding: 0px;
+    display: none;
+    color: black;
+    font-family: Time new roman; 
+    font-size: 18px;
+}
+
+#flip2, h3 {
+    font-size: 22px;
+    color: Firebrick;
+}
+#panel2 {
+    padding: 0px;
+    display: none;
+    color: black;
+    font-family: Time new roman; 
+    font-size: 18px;
+}
+
+#flip3, h3 {
+    font-size: 22px;
+    color: Firebrick;
+}
+#panel3 {
+    padding: 0px;
+    display: none;
+    color: black;
+    font-family: Time new roman; 
+    font-size: 18px;
+}
+
+#flip4, h3 {
+    font-size: 22px;
+    color: Firebrick;
+}
+#panel4 {
+    padding: 0px;
+    display: none;
+    color: black;
+    font-family: Time new roman; 
+    font-size: 18px;
+}
+
+#flip5, h3 {
+    font-size: 22px;
+    color: Firebrick;
+}
+#panel5 {
+    padding: 0px;
+    display: none;
+    color: black;
+    font-family: Time new roman; 
+    font-size: 18px;
+}
+
+/*h3 {
+    font-size: 22px;
+    color: Firebrick;
+}*/
+
+/*p {
+    color: black;
+    font-family: Time new roman; 
+    font-size: 18px;
+}*/
+
+/*ul li {
+    font-size: 16px;
+    color: black;
+    font-family: Time new roman; 
+}*/
+
+a{
+    font-family: Time new roman;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    line-height: 18px;
+    color: red;
+    text-align: center;
+}
+
+a:hover{
+    color: green;
+}
+
+div img {
+    widows: 600px;
+    height: 300px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+div p {
+    font-size: 18px;
+    color: blue;
+    font-family: Time new roman; 
+    text-align: center;
+}
+
+div h4 {
+    font-size: 18px;
+    color: chocolate;
+    font-family: Time new roman; 
+    text-align: center;
+}
+
+section{
+    width: 1300px;
+    height: 350px;
+}
+
+article{
+    width: 600px;
+    height: 350px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+#section img{
+    width: 400px;
+}
+
+article p {
+    font-size: 18px;
+    color: blue;
+    font-family: Time new roman; 
+    text-align: center;
+}
+
+.clearfix:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div form {
+    font-size: 18px;
+    color: black;
+    font-family: Time new roman; 
+    font-weight: bold;
+}
+
+
